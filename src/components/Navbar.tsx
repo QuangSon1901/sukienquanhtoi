@@ -34,7 +34,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="text-2xl font-bold text-ticketgo-primary">TicketGo</div>
+            <div className="text-2xl font-bold text-skqt-primary">SuKienQuanhToi</div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -44,7 +44,7 @@ export const Navbar = () => {
                 <Link 
                   key={category.name}
                   to={category.href}
-                  className="text-sm font-medium text-gray-700 hover:text-ticketgo-primary transition-colors"
+                  className="text-sm font-medium text-gray-700 hover:text-skqt-primary transition-colors"
                 >
                   {category.name}
                 </Link>
@@ -115,7 +115,7 @@ export const Navbar = () => {
                 <Link 
                   key={category.name}
                   to={category.href}
-                  className="text-sm font-medium text-gray-700 hover:text-ticketgo-primary transition-colors px-2 py-1"
+                  className="text-sm font-medium text-gray-700 hover:text-skqt-primary transition-colors px-2 py-1"
                   onClick={toggleMenu}
                 >
                   {category.name}

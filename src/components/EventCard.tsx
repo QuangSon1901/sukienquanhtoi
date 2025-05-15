@@ -38,7 +38,7 @@ export const EventCard: React.FC<EventProps> = ({
           className="w-full h-full object-cover"
         />
         {category && (
-          <div className="absolute top-3 left-3 bg-ticketgo-primary text-white text-xs px-2 py-1 rounded">
+          <div className="absolute top-3 left-3 bg-skqt-primary text-white text-xs px-2 py-1 rounded">
             {category}
           </div>
         )}
@@ -57,11 +57,11 @@ export const EventCard: React.FC<EventProps> = ({
         </div>
         
         <div className="flex items-center justify-between">
-          <div className="text-ticketgo-primary font-medium">
+          <div className="text-skqt-primary font-medium">
             {price}
           </div>
           <Link to={`/event/${id}`}>
-            <Button size="sm" variant="outline" className="text-xs border-ticketgo-primary text-ticketgo-primary hover:bg-ticketgo-primary/10">
+            <Button size="sm" variant="outline" className="text-xs border-skqt-primary text-skqt-primary hover:bg-skqt-primary/10">
               Đặt vé
             </Button>
           </Link>

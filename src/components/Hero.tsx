@@ -42,7 +42,7 @@ export const Hero = () => {
                     <h2 className="text-2xl md:text-4xl font-bold text-white mb-2">{slide.title}</h2>
                     <p className="text-sm md:text-base text-gray-200 mb-4 max-w-xl">{slide.description}</p>
                     <div>
-                      <Button className="bg-ticketgo-primary hover:bg-ticketgo-primary/90">
+                      <Button className="bg-skqt-primary hover:bg-skqt-primary/90">
                         Xem chi tiết
                       </Button>
                     </div>

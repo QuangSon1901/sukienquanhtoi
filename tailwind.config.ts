@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				ticketgo: {
+				skqt: {
 					primary: '#f53d2d',
 					secondary: '#1a94ff',
 					yellow: '#faad14',

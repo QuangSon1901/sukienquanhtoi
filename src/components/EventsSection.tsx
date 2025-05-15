@@ -21,7 +21,7 @@ export const EventsSection: React.FC<EventsSectionProps> = ({
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl md:text-2xl font-bold">{title}</h2>
           {viewAllLink && (
-            <Button variant="ghost" className="text-ticketgo-secondary flex items-center text-sm">
+            <Button variant="ghost" className="text-skqt-secondary flex items-center text-sm">
               Xem thêm <ChevronRight className="h-4 w-4 ml-1" />
             </Button>
           )}
